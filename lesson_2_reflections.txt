@@ -20,8 +20,14 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+- With a diagram you watch the parents
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+- It's a new commit into the tip of the current checkout, 
+- It's represented with a new node with two parents, because change from them 
+What are the pros and cons of Git’'s automatic merging vs. always doing merges
 manually?
+ -pros:  Saved time because, merge automaticaly very safe only
+ -cons: Maybe in some instance such as is incovennietlly, you would like to review , you forget to remove blank lines or something like that,unused code
